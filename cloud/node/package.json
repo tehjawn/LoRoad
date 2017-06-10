@@ -1,0 +1,10 @@
+{
+  "name": "loroad",
+  "version": "1.0.0",
+  "description": "Pothole Identification, Addressing, and Prediction Platform",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "clearblade": "^1.12.1"
+  }
+}
