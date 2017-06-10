@@ -43,6 +43,26 @@ body {
 
 /* Map Styles */
 
-#map {
-  height: 400px;
+#potholeMap, #predictionMap {
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  #potholeMap, #predictionMap {
+    width: 400px;
+    max-width: 300px;
+    max-height: 100vh;
+  }
+}
+
+.clicky-icon {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+.clicky-icon:hover {
+  background-color: rgba(200,200,200,.5);
 }
